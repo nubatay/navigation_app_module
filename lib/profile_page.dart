@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
- 
+
+import 'demo_auth.dart';
+import 'login_screen.dart';
+
 class ProfilePage extends StatelessWidget {
   const ProfilePage({super.key});
- 
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -51,6 +54,26 @@ class ProfilePage extends StatelessWidget {
                 ),
               ],
             ),
+          ),
+          const SizedBox(height: 32),
+          ElevatedButton.icon(
+            style: ElevatedButton.styleFrom(
+              backgroundColor: Colors.red,
+              foregroundColor: Colors.white,
+              padding: const EdgeInsets.symmetric(vertical: 14),
+            ),
+            onPressed: () {
+              DemoAuth.logout();
+
+              Navigator.of(context).pushAndRemoveUntil(
+                MaterialPageRoute(
+                  builder: (_) => const LoginScreen(),
+                ),
+                (route) => false,
+              );
+            },
+            icon: const Icon(Icons.logout),
+            label: const Text('Logout'),
           ),
         ],
       ),
