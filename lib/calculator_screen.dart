@@ -38,6 +38,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
       result = 'Cannot divide by zero';
       operationLabel = 'Please change the second number';
     });
+    return;
   }
 
   double answer;
