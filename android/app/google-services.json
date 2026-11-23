@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "163887072445",
+    "project_id": "ubatay-student-app",
+    "storage_bucket": "ubatay-student-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:163887072445:android:8b7ff81139c7441e07e3d4",
+        "android_client_info": {
+          "package_name": "com.example.navigation_app_module"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDu824hUX0Syz1dgaEWvDhLTrk2HS6Z2Ow"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
