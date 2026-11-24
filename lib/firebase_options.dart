@@ -57,7 +57,6 @@ class DefaultFirebaseOptions {
     projectId: 'ubatay-student-app',
     storageBucket: 'ubatay-student-app.firebasestorage.app',
   );
-
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyCAzabueqPTEKRuE2ejjW0EeyhNTMHDsH4',
     appId: '1:163887072445:ios:5a6690d65e0a223007e3d4',
@@ -66,7 +65,6 @@ class DefaultFirebaseOptions {
     storageBucket: 'ubatay-student-app.firebasestorage.app',
     iosBundleId: 'com.example.navigationAppModule',
   );
-
   static const FirebaseOptions macos = FirebaseOptions(
     apiKey: 'AIzaSyCAzabueqPTEKRuE2ejjW0EeyhNTMHDsH4',
     appId: '1:163887072445:ios:5a6690d65e0a223007e3d4',
